@@ -53,10 +53,5 @@ app.post("/failure",function(req,res){
   res.redirect("/");
 })
 app.listen(process.env.PORT || 3000,function(){
-  console.log("HIIIII");
+  console.log("SERVER SUCCESFULLY RUNNING ON PORT 3000");
 });
-
-//31d24fe4c6db586ec4a601f5b82fa1af-us2
-
-//auidence id
-//0f3c1d6d42
